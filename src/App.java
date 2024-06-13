@@ -14,7 +14,7 @@ import java.util.stream.Stream;
 public class App {
 
     public static void Seed(List<Funcionario> funcs) {
-        funcs.add(new Funcionario("Maria", LocalDate.of(2000, 10, 18), 2009.445556, "Operador"));
+        funcs.add(new Funcionario("Maria", LocalDate.of(2000, 10, 18), 2009.44, "Operador"));
         funcs.add(new Funcionario("João", LocalDate.of(1990, 5, 12), 2284.38, "Operador"));
         funcs.add(new Funcionario("Caio", LocalDate.of(1961, 5, 2), 9836.14, "Coordenador"));
         funcs.add(new Funcionario("Miguel", LocalDate.of(1988, 10, 14), 19119.88, "Diretor"));
